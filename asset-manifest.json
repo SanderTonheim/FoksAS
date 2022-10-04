@@ -1,0 +1,11 @@
+{
+  "files": {
+    "main.js": "/FoksAS/static/js/main.3eae24a4.js",
+    "static/media/Logo.svg": "/FoksAS/static/media/Logo.fde2abfcf46254f774802695a67994f8.svg",
+    "index.html": "/FoksAS/index.html",
+    "main.3eae24a4.js.map": "/FoksAS/static/js/main.3eae24a4.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.3eae24a4.js"
+  ]
+}
