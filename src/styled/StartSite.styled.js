@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import BG from '../assets/StartSiteBG.png'
 
 export const Background = styled.div`
 	height: 100%;
@@ -6,10 +7,11 @@ export const Background = styled.div`
 `
 
 export const StartSiteContainer = styled.div`
-	width: 100%;
-	height: 100%;
+	min-width: 100vw;
+	min-height: 100vh;
 	font-size: 1.2rem;
 	background-size: cover;
+	background-image: url(${BG});
 `
 
 export const StartHeader = styled.div`
