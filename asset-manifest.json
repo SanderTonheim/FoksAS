@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/FoksAS/static/js/main.500c9173.js",
+    "main.js": "/FoksAS/static/js/main.71708a29.js",
     "static/media/StartSiteBG.png": "/FoksAS/static/media/StartSiteBG.94233d9e5eaddcefa46f.png",
     "static/media/Logo.svg": "/FoksAS/static/media/Logo.9e73bb295b2ad1fd690b74f8a7ec1720.svg",
     "index.html": "/FoksAS/index.html",
-    "main.500c9173.js.map": "/FoksAS/static/js/main.500c9173.js.map"
+    "main.71708a29.js.map": "/FoksAS/static/js/main.71708a29.js.map"
   },
   "entrypoints": [
-    "static/js/main.500c9173.js"
+    "static/js/main.71708a29.js"
   ]
 }
