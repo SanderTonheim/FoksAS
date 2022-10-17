@@ -16,7 +16,7 @@ export const StartSite = () => {
 			<StartSiteContainer>
 				<GlobalStyles />
 				<StartHeader>
-					<h1>Regn ut din oppmøteprosent</h1>
+					<h1>Regn ut din oppmøte <br /> prosent</h1>
 				</StartHeader>
 				<ButtonDiv>
 					<button onClick={navigationToVelgFagSite}>Velg fag </button>
