@@ -1,5 +1,3 @@
 export const SkrivInnManuelt = () => {
-  return (
-    <div>SkrivInnManuelt</div>
-  )
+	return <div>Skriv inn timene dine manuelt</div>
 }

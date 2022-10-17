@@ -1,6 +1,8 @@
 import styled from 'styled-components'
 
 export const NavbarStyled = styled.div`
+	padding: 0%;
+	margin: 0%;
 	ul {
 		width: 100%;
 		height: 3rem;

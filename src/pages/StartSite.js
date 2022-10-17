@@ -1,18 +1,12 @@
 import GlobalStyles from '../GlobalStyles'
-import { useNavigate } from 'react-router-dom'
+import { Link } from 'react-router-dom'
+
 import {
 	StartSiteContainer,
 	StartHeader,
 	ButtonDiv
 } from '../styled/StartSite.styled'
 export const StartSite = () => {
-	const navigate = useNavigate(1)
-	const navigationToVelgFagSite = () => {
-		navigate('/VelgFagSite')
-	}
-	const navigationToManuelt = () => {
-		navigate('/SkrivInnManuelt')
-	}
 	return (
 		<StartSiteContainer>
 			<GlobalStyles />
@@ -22,8 +16,12 @@ export const StartSite = () => {
 				</h1>
 			</StartHeader>
 			<ButtonDiv>
-				<button onClick={navigationToVelgFagSite}>Velg fag </button>
-				<button onClick={navigationToManuelt}>Skriv inn manuelt </button>
+				<button>
+					<Link to={'/VelgFag'}>Velg fag</Link>
+				</button>
+				<button>
+					<Link to={'/SkrivInnManuelt'}>Skriv inn manuelt</Link>
+				</button>
 			</ButtonDiv>
 		</StartSiteContainer>
 	)

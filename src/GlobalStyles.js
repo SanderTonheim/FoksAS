@@ -3,7 +3,7 @@ const GlobalStyles = createGlobalStyle`
 
   * {
     margin: 0rem;
-    padding: 0rem;  
+    padding: 0rem; 
   }
   
   html, body {

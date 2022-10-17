@@ -6,9 +6,6 @@ export const VelgFagSite = () => {
 		<>
 			<GlobalStyles />
 			<HeaderOne>Velg dine fag</HeaderOne>
-			<h1>dsfasfaasf</h1>
-			<h2>sdfsdfsd</h2>
-			<p>fsdaffs</p>
 		</>
 	)
 }
