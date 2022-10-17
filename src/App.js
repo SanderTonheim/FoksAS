@@ -11,10 +11,7 @@ function App() {
 			<NavBar />
 			<Routes>
 				<Route path='/' element={<StartSite />} />
-				<Route
-					path='/src/components/VelgFagSite.js'
-					element={<VelgFagSite />}
-				/>
+				<Route path='/src/pages/VelgFagSite.js' element={<VelgFagSite />} />
 			</Routes>
 		</div>
 	)
