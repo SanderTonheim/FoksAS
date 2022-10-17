@@ -9,9 +9,8 @@ function App() {
 		<div>
 			<GlobalStyles />
 			<NavBar />
-			<StartSite />
 			<Routes>
-				<Route path='/' />
+				<Route path='/' element={<StartSite />} />
 				<Route
 					path='/src/components/VelgFagSite.js'
 					element={<VelgFagSite />}
