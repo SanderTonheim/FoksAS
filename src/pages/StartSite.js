@@ -8,10 +8,10 @@ import {
 export const StartSite = () => {
 	const navigate = useNavigate(1)
 	const navigationToVelgFagSite = () => {
-		navigate('/VelgFagSite.js')
+		navigate('/VelgFagSite')
 	}
 	const navigationToManuelt = () => {
-		navigate('/SkrivInnManuelt.js')
+		navigate('/SkrivInnManuelt')
 	}
 	return (
 		<StartSiteContainer>
