@@ -1,11 +1,6 @@
 import styled from 'styled-components'
 import BG from '../assets/StartSiteBG.png'
 
-export const Background = styled.div`
-	height: 100%;
-	width: 100%;
-`
-
 export const StartSiteContainer = styled.div`
 	min-width: 100vw;
 	min-height: 100vh;
@@ -15,34 +10,33 @@ export const StartSiteContainer = styled.div`
 `
 
 export const StartHeader = styled.div`
-	width: 100%;
-	height: auto;
+	width: 90vw;
+	height: 100%;
 	padding: 2rem;
 	margin-bottom: 3rem;
 	font-size: 1.4rem;
 	h1 {
-		font-weight: 500;
+		font: 600 3.9rem sans-serif;
 	}
 `
 
 export const ButtonDiv = styled.div`
+	margin-top: 2rem;
 	width: 100%;
-	height: auto;
+	height: 100%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	gap: 2rem;
+	gap: 4rem;
 
 	button {
-		width: 60%;
-		margin: 0 auto;
+		width: 80%;
 		height: 3em;
-		font-size: 1.1rem;
+		margin: 0 auto;
+		padding: 0%;
 		border-radius: 1rem;
+		border: none;
+		background-color: white;
+		font: 600 1.5rem sans-serif;
 	}
-`
-export const BackgroundImg = styled.img`
-	height: 100%;
-	width: 100%;
-	background-image: url();
 `

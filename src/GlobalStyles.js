@@ -3,11 +3,11 @@ const GlobalStyles = createGlobalStyle`
 
   * {
     margin: 0rem;
-    padding: 0rem;    
+    padding: 0rem;  
   }
   
   html, body {
-    max-width: 100%;
+    width: 100%;
     height: 100%;
     overflow-x: hidden;
 }
