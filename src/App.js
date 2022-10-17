@@ -7,13 +7,15 @@ import GlobalStyles from './GlobalStyles'
 function App() {
 	return (
 		<div>
+			<GlobalStyles />
 			<NavBar />
+			<StartSite />
 			<Routes>
+				<Route path='/' />
 				<Route
 					path='/src/components/VelgFagSite.js'
 					element={<VelgFagSite />}
 				/>
-				<Route path='/' element={<StartSite />} />
 			</Routes>
 		</div>
 	)

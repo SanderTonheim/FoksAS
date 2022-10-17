@@ -21,7 +21,7 @@ export const StartHeader = styled.div`
 `
 
 export const ButtonDiv = styled.div`
-	margin-top: 2rem;
+	margin-top: rem;
 	width: 100%;
 	height: 100%;
 	display: flex;
