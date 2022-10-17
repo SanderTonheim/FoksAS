@@ -1,4 +1,4 @@
-import { Routes, Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 import { StartSite } from './pages/StartSite'
 import { NavBar } from './components/NavBar'
@@ -11,8 +11,8 @@ function App() {
 			<GlobalStyles />
 			<NavBar />
 			<Routes>
-				<Route path='/FoksAS' element={<StartSite />} />
-				<Route path='/VelgFag' element={<VelgFagSite />} />
+				<Route exact path='/FoksAS' element={<StartSite />} />
+				<Route exact path='/VelgFag' element={<VelgFagSite />} />
 			</Routes>
 		</>
 	)
