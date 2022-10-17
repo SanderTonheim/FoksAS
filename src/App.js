@@ -8,12 +8,13 @@ function App() {
 	return (
 		<div>
 			<NavBar />
+			<StartSite />
 			<Routes>
 				<Route
 					path='/src/components/VelgFagSite.js'
 					element={<VelgFagSite />}
 				/>
-				<Route path='/' element={<StartSite />} />
+				<Route path='/' />
 			</Routes>
 		</div>
 	)
