@@ -4,14 +4,14 @@ import { HeaderOne } from '../styled/VelgFagSite.styled'
 
 export const VelgFagSite = () => {
 	return (
-		<div>
+		<>
 			<GlobalStyles />
 			<HeaderOne>Velg dine fag</HeaderOne>
-
+			<h1>test test</h1>
 			<FagListe>
-				<label htmlFor=""></label>
+				<label htmlFor=''></label>
 				<input type='checkbox' name='' id='' />
 			</FagListe>
-		</div>
+		</>
 	)
 }
